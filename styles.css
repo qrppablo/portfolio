@@ -225,12 +225,6 @@ h2 {
     background-color: rgb(236, 236, 236);
 }
 
-.img img { 
-    width: 100%;
-    height: auto;
-    border-radius: 0.5rem;
-}
-
 .img__description {
     background-color: white;
     padding: 1rem;
@@ -345,10 +339,10 @@ footer{
     }
     .card {
         height: 68rem;
-        width: 90%;
+        width: 40rem;
     }
     .img { 
-        height: 53%;
+        height: 38rem;
     }
     .img__description {
         height: 60rem;
@@ -399,15 +393,15 @@ footer{
     }
     .card {
         display: flex;
-        height: 67rem;
-        width: 70%;
+        height: 85rem;
+        width: 60rem;
     }
     .img { 
-        height: 62%;
+        height: 60rem;
     }
     .img__description {
         justify-content: flex-end;
-        height: 30rem;
+        height: 75rem;
     }
     .img__description--title {
         font-size: 1.5rem;
@@ -441,21 +435,20 @@ footer{
         padding-bottom: 1rem;
         width: 50%;
     }
-    .cards {
-        flex-direction: row;
-        display: flex;
-        justify-content: center;
-    }
+
     .card {
         display: flex;
         flex-direction: column;
-        height: 50rem;
-        width: 30rem;
+        height: 67rem;
+        width: 50rem;
         overflow: hidden;
         margin: 2rem;
         border-radius: 0.5rem;
         box-shadow: 3px 3px 3px gray;
         transition: all 0.3s;
+    }
+    .img {
+        height: 50rem;
     }
     .img__description--title {
         font-size: 1.2rem;
