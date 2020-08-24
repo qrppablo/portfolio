@@ -321,7 +321,7 @@ footer{
         margin-bottom: 3rem;
     } 
     .wrapper__header {
-        height:95vh;
+        height:90vh;
     }
     .wrapper__description {
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
