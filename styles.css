@@ -50,7 +50,7 @@ h2 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height:60vh;
+    height: 60vh;
     width: 100vw;
     background-color: pink;
     background-image: linear-gradient(rgba(0, 0, 0, 0.151),whitesmoke),  url("./images/background.jpeg");
@@ -303,6 +303,7 @@ footer{
     } 
     h2 {
       font-size: 4rem; 
+      font-weight: 200;
     } 
     .skills__icons {
         width: 80%;
@@ -320,7 +321,7 @@ footer{
         margin-bottom: 3rem;
     } 
     .wrapper__header {
-        height:100vh;
+        height:95vh;
     }
     .wrapper__description {
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
