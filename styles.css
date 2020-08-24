@@ -222,7 +222,6 @@ h2 {
     align-items: center;
     justify-content: center;
     padding: 1.5rem;
-    height: 62%;
     background-color: rgb(236, 236, 236);
 }
 
@@ -345,15 +344,11 @@ footer{
         align-items: center;
     }
     .card {
-        height: 73rem;
+        height: 68rem;
         width: 90%;
     }
     .img { 
-        height: 60%;
-    }
-    .img img { 
-        width: 100%;
-        height: auto;
+        height: 53%;
     }
     .img__description {
         height: 60rem;
@@ -404,12 +399,15 @@ footer{
     }
     .card {
         display: flex;
-        height: 72rem;
+        height: 67rem;
         width: 70%;
+    }
+    .img { 
+        height: 62%;
     }
     .img__description {
         justify-content: flex-end;
-        height: 35rem;
+        height: 30rem;
     }
     .img__description--title {
         font-size: 1.5rem;
