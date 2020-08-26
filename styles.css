@@ -355,10 +355,10 @@ footer{
     }
     .card {
         height: 68rem;
-        width: 40rem;
+        width: 38rem;
     }
     .img { 
-        height: 40rem;
+        height: 38rem;
     }
     .img__description {
         height: 60rem;
@@ -409,11 +409,11 @@ footer{
     }
     .card {
         display: flex;
-        height: 85rem;
-        width: 60rem;
+        height: 82rem;
+        width: 55rem;
     }
     .img { 
-        height: 60rem;
+        height: 55rem;
     }
     .img__description {
         justify-content: flex-end;
@@ -461,7 +461,7 @@ footer{
     }
     .card {
         height: 50rem;
-        width: 30rem;
+        width: 33rem;
         overflow: hidden;
         margin: 2rem;
         border-radius: 0.5rem;
