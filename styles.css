@@ -13,6 +13,10 @@ html, body {
     letter-spacing: .06rem; 
 }
 
+.img {
+    padding: 2rem;
+}
+
 @media only screen and (max-width: 768px) {
     html {
       font-size: 30%; 
@@ -66,6 +70,11 @@ h2 {
     flex-direction: column;
     background-color: whitesmoke;
     padding: 5rem;
+}
+
+.wrapper__description p {
+    text-align: justify;
+    text-justify: auto;
 }
 
 .wrapper__portfolio {
@@ -158,13 +167,13 @@ h2 {
 
 .skills__title {
     margin-bottom: 7rem;
-    margin-top: 3rem;
 }
 
 .skills__box {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 5rem;
     margin-bottom: 5rem;
 }
 
@@ -220,12 +229,11 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1.5rem;
     background-color: rgb(236, 236, 236);
 }
 
 .img__description {
-    background-color: white;
+    background-color: snow;
     padding: 1rem;
 }
 
@@ -304,13 +312,16 @@ footer{
       font-size: 4rem; 
       font-weight: 200;
     } 
+    .skills__box {
+        margin-bottom: 5rem;
+    }
     .skills__icons {
         width: 80%;
     } 
     .description {
         flex-direction: column;
         align-items: center;
-        width: 90%;
+        width: 100%;
         line-height: 3rem;
     } 
     .description .text {
@@ -323,8 +334,8 @@ footer{
         height:90vh;
     }
     .wrapper__description {
-        clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
     }
     .links {
         width: 80%;
@@ -333,6 +344,10 @@ footer{
     }
     .link p{
         font-size: 2.5rem;
+    }
+    .portfolio__title {
+        margin-top: 6rem;
+        margin-bottom: 3rem;
     }
     .cards {
         flex-direction: column;
@@ -422,27 +437,31 @@ footer{
         font-size: 3rem; 
     } 
     .wrapper__header {
-        height:55vh;
+        height: 55vh;
     }
     .wrapper__description {
-        clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
     }
     .wrapper__skills {
         display: flex;
         align-items: center;
+        padding-top: 2rem;
     }
     .skills__box {
-        padding-top: 2rem;
-        padding-bottom: 1rem;
+        padding-bottom: 2rem;
         width: 50%;
     }
-
+    .portfolio__title {
+        margin-top: 9rem;
+        margin-bottom: 4rem;
+    }
+    .cards {
+        flex-direction: row;
+    }
     .card {
-        display: flex;
-        flex-direction: column;
-        height: 67rem;
-        width: 50rem;
+        height: 50rem;
+        width: 30rem;
         overflow: hidden;
         margin: 2rem;
         border-radius: 0.5rem;
@@ -450,7 +469,7 @@ footer{
         transition: all 0.3s;
     }
     .img {
-        height: 50rem;
+        height: 30rem;
     }
     .img__description--title {
         font-size: 1.2rem;
@@ -461,7 +480,7 @@ footer{
         line-height: 2rem;
     }
     .skills__icons {
-        width: 80%;
+        width: 100%;
     } 
     .description {
         flex-direction: row;
@@ -491,5 +510,27 @@ footer{
     }
     .link p{
         font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .card {
+        height: 57rem;
+        width: 40rem;
+        overflow: hidden;
+        margin: 2rem;
+        border-radius: 0.5rem;
+        box-shadow: 3px 3px 3px gray;
+        transition: all 0.3s;
+    }
+    .img {
+        height: 40rem;
+    }
+    .skills__box {
+        padding-bottom: 0;
+    }
+    .skills__row__icon {
+        margin-bottom: 5rem;
     }
 }
