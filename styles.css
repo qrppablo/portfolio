@@ -145,11 +145,6 @@ h2 {
 .avatar img {
     border-radius: 50%;
     width: 15rem;
-    filter: grayscale(100%);
-}
-
-.avatar img:hover {
-    filter: none;
 }
 
 .text {
